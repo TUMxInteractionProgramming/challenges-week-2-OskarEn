@@ -70,6 +70,19 @@ em {
     text-align: center;
 }
 
+.selected {
+    text-decoration: underline;
+    color: blue;
+}
+
+.tab-bar {
+    background-color: white;
+}
+
+.tab-bar button {
+    background-color: lightgrey;
+}
+
 ul {
 /* remove the bullets from the list and add the background color*/
     background-color: #F5F5F5;
@@ -79,7 +92,6 @@ ul {
 li {
 /* #2 #colorful #channelandchat */
     background-color: white;
-
-    //text size like h2
-    //remove bullet
+    font-size: 1.5em;
+    font-weight: bold;
 }
